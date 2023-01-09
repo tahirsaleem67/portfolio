@@ -1,0 +1,103 @@
+
+
+.footer{
+    position: relative;
+    z-index: -1;
+    margin-top: -6rem;
+    background-color: rgb(54, 134, 255);
+    height: 45rem;
+        /* display: flex;
+        justify-content: center; */
+}
+.footer-main{
+    position: absolute;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    left:55rem;
+    top: 20rem;
+}
+
+.footer-txt h4{
+    font-family: 'Nunito', sans-serif;
+     font-size: 2rem;
+     font-weight: 700;
+     color: white;
+}
+
+.footer-icon .icon{
+    display: flex;
+    gap: 5rem;
+}
+.footer-icon .icon-1{
+    font-size:5rem ;
+    color: white;
+
+}
+#hover-icon:hover{
+background-color: blue;
+}
+
+@media (max-width: 1000px) {
+
+    .footer-main{
+        left:45rem;
+        top: 20rem;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .footer-main{
+        left:35rem;
+        top: 20rem;
+    }
+}
+@media (max-width: 700px) {
+
+    .footer-main{
+        left:25rem;
+        top: 20rem;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .footer-main{
+        left:17rem;
+        top: 20rem;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .footer-main{
+        left:10rem;
+        top: 20rem;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .footer-main{
+        left:7rem;
+        top: 20rem;
+    }
+}
+@media (max-width: 340px) {
+
+    .footer-main{
+        left:5rem;
+        top: 20rem;
+    }
+}
+
+@media (max-width: 300px) {
+
+    .footer-main{
+        left:2rem;
+        top: 20rem;
+    }
+}

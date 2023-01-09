@@ -1,0 +1,239 @@
+.contact-main {
+    width: 100%;
+    height: fit-content;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+}
+.toaast{
+    font-size: 1.5rem;
+}
+
+.contact-text {
+    width: 40%;
+    height: 55rem;
+    /* background-color: black; */
+}
+
+.contact-input {
+    z-index: 100;
+    width: 60%;
+    height: 55rem;
+    /* background-color: rgb(197, 21, 21); */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contact-input form {
+    padding-top: 5rem;
+    width: 30rem;
+    padding-left: 6rem;
+
+}
+
+.contact-input form #input::placeholder {
+    color: rgb(150, 151, 151);
+
+    font-weight: 500;
+}
+
+.contact-input form #input {
+    border: 2.5px solid rgb(82, 98, 245);
+    width: 35rem;
+    height: 4rem;
+    border-radius: 10px;
+    padding-left: 1rem;
+    margin-top: 2rem;
+}
+
+#textarea {
+    border: 2.5px solid rgb(82, 98, 245);
+    width: 36.7rem;
+    height: 10rem;
+    border-radius: 10px;
+    padding-left: 1rem;
+    outline: none;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+#textarea::placeholder {
+    font-size: 1.5rem;
+    color: rgb(150, 151, 151);
+    font-weight: 500;
+
+}
+
+form button {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: .2rem;
+    color: white;
+    padding: 1rem;
+    border: none;
+    margin-top: 5.4rem;
+    z-index: 100;
+    margin-left: 13rem;
+    height: 4.1rem;
+    width: 11rem;
+    border-radius: 10rem;
+    background-color: red;
+    /* background-color: linear-gradient(0deg, rgb(55, 73, 236) 0%, rgb(98 189 252) 100%); */
+    /* color: linear-gradient(270deg, rgba(83, 169, 244, 0.86) 17%, rgba(59, 85, 219, 0.87) 95%); */
+    background-image: linear-gradient(181deg, rgba(83, 169, 244, 0.86) 17%, rgba(107, 59, 219, 0.87) 95%);
+    box-shadow: 0px 15px 20px rgba(84, 128, 248, 0.4);
+    transition: all 0.8s;
+}
+
+form button .contact-btn{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+
+}
+form button:hover .contact-btn{
+    cursor: pointer;
+    color: rgb(63, 54, 54);
+}
+
+form button:hover {
+    cursor: pointer;
+    color: rgb(63, 54, 54);
+    background-image: linear-gradient(181deg, rgb(255, 255, 255) 17%, rgb(255, 255, 255) 95%);
+    border: 1px solid rgb(41, 67, 163);
+    transform: translateY(-7px);
+}
+
+@media (max-width: 760px) {
+
+    .contact-text h1 {
+        line-height: 5rem;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .contact-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-text {
+        width: 100%;
+        height: fit-content;
+        /* background-color: black; */
+    }
+
+    .contact-input {
+        width: 100%;
+        height: fit-content;
+        /* background-color: rgb(197, 21, 21); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .contact-input {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .contact-text h1 {
+        margin: 0;
+        margin-left: 2rem;
+        line-height: 5rem;
+    }
+
+    .contact-text h2 {
+        margin: 0;
+        margin-left: 2rem;
+        margin-left: 2rem;
+
+
+    }
+
+    .contact-input form {
+        padding-top: 5rem;
+        width: 100%;
+        padding-left: 4rem;
+        padding-bottom: 3rem;
+
+    }
+
+    .contact-input form #input::placeholder {
+
+        font-weight: 500;
+    }
+
+    .contact-input form #input {
+        border: 2.5px solid rgb(82, 98, 245);
+        width: 30rem;
+        height: 4rem;
+
+    }
+
+    #textarea {
+        width: 31.7rem;
+        height: 10rem;
+
+    }
+
+    #textarea::placeholder {
+        font-size: 1.5rem;
+        color: rgb(150, 151, 151);
+        font-weight: 500;
+
+    }
+
+    form button {
+        margin-top: 5rem;
+        margin-left: 10rem;
+    }
+
+
+}
+@media (max-width: 320px) {
+
+    .contact-input form {
+        padding-top: 5rem;
+        width: 100%;
+        padding-left: 4rem;
+
+    }
+
+    .contact-input form #input::placeholder {
+
+        font-weight: 500;
+    }
+
+    .contact-input form #input {
+        border: 2.5px solid rgb(82, 98, 245);
+        width: 26rem;
+        height: 4rem;
+
+    }
+
+    #textarea {
+        width: 27.7rem;
+        height: 10rem;
+
+    }
+
+    #textarea::placeholder {
+        font-size: 1.5rem;
+        color: rgb(150, 151, 151);
+        font-weight: 500;
+
+    }
+
+    form button {
+        margin-top: 5rem;
+        margin-left: 9rem;
+    }
+}

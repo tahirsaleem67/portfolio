@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Work+Sans:wght@400;500&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Rubik Puddles', cursive; */
+    /* font-family: 'Work Sans', sans-serif; */
+}
+
+:root {
+    --heading1: rgb(36, 29, 29);
+    --heading2: rgb(41, 67, 163);
+    --para: #777;
+    --para-tint: #e4e4e4;
+    --white: #fff;
+    --black: #212529;
+    --helper: #8490ff;
+    --overlay: #3e64ff;
+    --helper-tint: #f3f4ff;
+    --bg: rgb(249 249 255);
+    --icons-bg: rgba(144, 172, 209, 0.2);
+    --gradient: linear-gradient(181deg, rgba(83, 169, 244, 0.86) 17%, rgba(59, 85, 219, 0.87) 95%);
+    /* background-image: linear-gradient(270deg, rgba(83, 169, 244, 0.86) 17%, rgba(59, 85, 219, 0.87) 95%); */
+    --gradientSupport: -webkit-linear-gradient(0deg,
+            rgb(83, 100, 248) 0%,
+            rgb(98 189 252) 100%);
+    --shadow: 0px 0px 20px 0px rgb(132 144 255 / 20%);
+    --shadowSupport: 0px 20px 20px 0px rgb(132 144 255 / 30%);
+    
+  --toastify-toast-font-size: 20px;
+}
+
+.toastContainer{
+color: red;
+font-size: 20px;
+}
+
+
+
+html {
+    font-size: 62.5%;
+    /* scroll-behavior: smooth; */
+    /* 1rem = 10px */
+    overflow-x: hidden;
+}
+
+.tahir {
+    left: -30rem;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(128, 128, 227, 0.5998774509803921) 0%, rgba(254, 255, 255, 0) 14%);
+
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgb(253, 192, 250) 0%, rgba(238, 28, 198, 0) 15%);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    margin-top: 10rem;
+    color: #263050;
+    font-size: 5rem;
+    font-weight: 800;
+    line-height: 3.2rem;
+    margin-left: 5rem;
+}
+
+h2 {
+    color: rgb(41, 67, 163);
+
+    margin-left: 5rem   ;
+
+    font-size: 4.8rem;
+    font-weight: 900;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    margin-left: 5rem   ;
+
+    color: #777;
+    line-height: 1.6;
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+.error{
+    color: red;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+
+
+
+
+
+@media (max-width: 980px) {
+
+
+   html{
+    font-size: 55%;
+   }
+}

@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+.main-testimonial {
+
+    width: 100%;
+    height: 60rem;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-testimonial .text-div {
+    height: fit-content;
+    margin-top: 0;
+    /* background-color: black; */
+    padding-left: 4rem;
+    padding-top: 2rem;
+    height: 10rem;
+
+
+
+}
+
+.main-testimonial .text-div .client {
+    color: rgb(41, 67, 163);
+    font-family: 'Nunito', sans-serif;
+}
+
+.main-testimonial .text-div .works {
+
+    font-family: 'Nunito', sans-serif;
+
+
+
+}
+
+.main-testimonial .text-div h1 {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+
+}
+ .main-testimonial .swiper{
+    /* background-color: aqua; */
+    display: flex;
+    position: relative;
+
+    width: 100%;
+}
+.swiper .side-pic{
+    position: absolute;
+    z-index: 100;
+}
+.swiper .side-pic1{
+    position: absolute;
+    z-index: 100;
+    right: 300px;
+}
+
+
+
+
+.side-pic-1{
+    width: 9rem;
+    height: 9rem;
+    border:  2px solid rgb(203, 215, 241);
+    border-radius: 100%;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.side-pic-1:nth-child(1){
+    
+    left: 76px;
+    top: 30px;
+}
+.side-pic-1:nth-child(2){
+    
+    left: 141px;
+    top: 149px;
+    
+}
+.side-pic-1:nth-child(3){
+    
+    left: 45px;
+    top: 301px;
+}
+
+.side-pic-1 img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    
+}
+.side-pic-2{
+    width: 9rem;
+    height: 9rem;
+    border:  2px solid rgb(203, 215, 241);
+    border-radius: 100%;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.side-pic-2:nth-child(1){
+    left: 192px;
+    top: 0px;
+}
+.side-pic-2:nth-child(2){
+    
+    left: 58px;
+    top: 209px;
+    
+}
+.side-pic-2:nth-child(3){
+    left: 98px;
+    top: 340px;
+}
+.side-pic-2 img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    
+}
+
+
+
+.swiper .mySwipers {
+    box-shadow: none;
+    width: 100rem;
+    height: 43rem;
+    /* background-color: #263050; */
+
+}
+
+.main-swiper-div {
+    width: 100rem;
+    height: 40rem;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-swiper-box {
+    width: 60rem;
+    height: 30rem;
+    /* display: block; */
+    background: linear-gradient(white, white) padding-box,
+        linear-gradient(to right, #a0b2f3, rgb(181, 218, 250)) border-box;
+    box-shadow: rgba(13, 13, 240, 0.25) 0px 30px 60px -12px, rgba(8, 112, 248, 0.3) 0px 18px 36px -18px;
+    border: 8px solid transparent;
+    border-radius: 4.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+
+.main-swiper-box .dp-div {
+    width: 100%;
+    height: 13rem;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+
+}
+
+.main-swiper-box .dp-div .pic-div {
+    width: 10rem;
+    height: 10rem;
+    /* border:  2px solid rgb(203, 215, 241); */
+    border-radius: 100%;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+
+}
+
+.main-swiper-box .dp-div .pic-div img {
+
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+
+
+
+
+}
+
+.main-swiper-box .text-div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 17rem;
+    /* background-color: rgb(255, 0, 128); */
+    text-align: center;
+    padding: 0;
+    /* padding-top: 4rem; */
+    
+
+}
+
+.name-div {
+    position: absolute;
+    width: 15rem;
+    height: 3.7rem;
+    border-radius: 50px;
+    background-image: linear-gradient(181deg, rgba(83, 169, 244, 0.86) 17%, rgba(107, 59, 219, 0.87) 95%);
+    box-shadow: 0px 15px 20px rgba(84, 128, 248, 0.4);
+    bottom: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.name-div h3 {
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Bree Serif', serif;
+    color: #4e4e4e;
+    color: white;
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 0;
+
+}
+
+.main-swiper-box .text-div p {
+    font-size: 1.6rem;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(139, 137, 137);
+    line-height: 1.6;
+    font-weight: 800;
+    margin: 0;
+    padding: 4rem;
+    width: 100%;
+    
+    /* background-color: #263050; */
+
+}
+
+@media (max-width: 1180px) {
+    .swiper .side-pic{
+      display: none;
+    }
+    .swiper .side-pic1{
+       display: none;
+}
+}
+
+@media (max-width: 700px) {
+
+    .swiper .mySwipers {
+        width: 50rem;
+        height: 43rem;
+
+    }
+
+    .main-swiper-div {
+        width: 50rem;
+        height: 40rem;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .main-swiper-box {
+        width: 40rem;
+        height: 30rem;
+
+    }
+
+    .main-swiper-box .text-div p {
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+        font-weight: 800;
+        /* background-color: aqua; */
+
+    }
+
+}
+
+
+
+@media (max-width: 460px) {
+
+    .swiper .mySwipers {
+        width: 35rem;
+        height: 43rem;
+
+    }
+
+    .main-swiper-div {
+        width: 35rem;
+        height: 40rem;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .main-swiper-box {
+        width: 30rem;
+        height: 30rem;
+
+    }
+
+
+    .main-testimonial .text-div .client {
+
+        color: #263050;
+        font-family: 'Nunito', sans-serif;
+
+
+
+    }
+
+    .main-testimonial .text-div .works {
+        color: rgb(41, 67, 163);
+        font-family: 'Nunito', sans-serif;
+
+
+
+
+    }
+
+
+    .main-testimonial .text-div h1 {
+        line-height: 6rem;
+        margin: -4rem 0 0 -2.5rem;
+    }
+
+    .main-swiper-box .text-div p {
+        margin: 0;
+        padding: 2rem 0 0 0;
+        width: 100%;
+        line-height: 1.6;
+        font-weight: 800;
+        /* background-color: aqua; */
+
+    }
+}
